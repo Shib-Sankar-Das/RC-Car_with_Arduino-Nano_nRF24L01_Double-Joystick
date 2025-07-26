@@ -9,6 +9,9 @@ The system consists of two main components:
 1. **🛰️ Transmitter Unit**: A handheld controller with dual joysticks for sending control commands
 2. **🛺 Receiver Unit**: Mounted on the RC car to receive commands and control the motors
 
+![final S2](https://github.com/user-attachments/assets/3a34ae7d-4e74-48f6-9ce6-bdced0706833)
+
+
 ## 🔌 Hardware Components Required
 
 ### 🛰️ Transmitter Side
@@ -33,6 +36,10 @@ The system consists of two main components:
 - Connecting wires
 - Chassis/Frame for the car
 - Heat sinks for LM2596 and L298N (recommended)
+
+
+https://github.com/user-attachments/assets/7dae56fb-6ab8-4291-bbf7-26cefedcaa53
+
 
 ## 🔌 Circuit Diagrams Analysis
 
@@ -70,6 +77,9 @@ The transmitter circuit includes:
 **Stability Components:**
 - 100µF capacitor across NRF24L01 VCC-GND for power stability
 
+![Transmitter-Diagram](https://github.com/user-attachments/assets/e4640840-e326-499a-9ea6-0826adf74428)
+
+
 ### 📥 Receiver Circuit (Receiver-Diagram.jpg)
 
 The receiver circuit includes:
@@ -104,6 +114,9 @@ The receiver circuit includes:
 - **Motors:**
   - Left Motor → OUT1 & OUT2 of L298N
   - Right Motor → OUT3 & OUT4 of L298N
+
+![Receiver-Diagram](https://github.com/user-attachments/assets/b94fff4a-e7c4-40f3-9b75-066a3f69b75c)
+
 
 ## 🧠 How It Works
 
